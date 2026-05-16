@@ -19,7 +19,7 @@ vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float)
 ---------
 vim.lsp.config['clangd'] = {
   cmd = { 'clangd' },
-  filetypes = { 'c' },
+  filetypes = { 'c', 'cpp' },
   root_markers = { 'Makefile', '.git' },
 }
 vim.lsp.enable('clangd')
