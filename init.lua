@@ -8,6 +8,8 @@ vim.opt.softtabstop = 4
 
 vim.g.leader = ' '
 
+vim.cmd.colorscheme('catppuccin')
+
 vim.pack.add({
     'https://github.com/neovim/nvim-lspconfig',
 })
