@@ -1,6 +1,14 @@
 # My Neovim config
 
-## Prerequisites
+## General Settings
+* (Relative) line numbers
+* Color column at 80 characters
+* Use spaces instead of tabs
+* Set leader key to `<space>`
 
-* clangd
+## Plugins
+* `neovim/nvim-lspconfig`
+
+## Enabled LSPs
+* gopls
 
