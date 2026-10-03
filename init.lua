@@ -10,6 +10,8 @@ vim.g.leader = ' '
 
 vim.cmd.colorscheme('catppuccin')
 
+vim.keymap.set('n', '<space>d', '<cmd>lua vim.diagnostic.open_float(0, {scope="line"})<CR>', { desc = "Show line diagnostics" })
+
 -- Format Go files on write
 vim.api.nvim_create_autocmd('BufWritePre', {
     pattern = '*.go',
