@@ -23,3 +23,7 @@ vim.pack.add({
 })
 vim.lsp.enable('gopls')
 
+vim.pack.add({
+    'https://github.com/nvim-treesitter/nvim-treesitter',
+})
+
